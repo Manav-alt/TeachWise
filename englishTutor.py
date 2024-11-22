@@ -12,7 +12,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 
 os.environ["GROQ_API_KEY"] = "GROQ_API_KEY"
-os.environ["DEEPGRAM_API_KEY"] = "c53e3eb863996f29c8e7d667f39dd16bbc0af916"
+os.environ["DEEPGRAM_API_KEY"] = "DEEPGRAM_API_KEY"
 
 llm = ChatGroq(temperature=0, model_name="llama3-8b-8192")
 
